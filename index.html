@@ -2,42 +2,25 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Formal Website</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      background-color: #f4f4f4;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-    }
-    .message-box {
-      background-color: white;
-      padding: 40px;
-      border-radius: 8px;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-      text-align: center;
-    }
-    .message-box h1 {
-      margin: 0;
-      font-size: 2em;
-      color: #333;
-    }
-    .message-box p {
-      margin-top: 10px;
-      font-size: 1.1em;
-      color: #666;
-    }
-  </style>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login Page</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="message-box">
-    <h1>Welcome to Our Website</h1>
-    <p>We are committed to excellence and integrity in everything we do.</p>
+  <div class="login-container" id="loginForm">
+    <h2>Login</h2>
+    <input type="text" id="name" placeholder="Name" required />
+    <input type="email" id="email" placeholder="Email" required />
+    <input type="password" id="password" placeholder="Password" required />
+    <button onclick="login()">Login</button>
   </div>
+
+  <div class="welcome-message" id="welcomeMessage">
+    <h2 id="greeting"></h2>
+    <p>Here's your link to the GitHub repository to download the app:</p>
+    <a href="https://github.com/your-repo-link" target="_blank">Download App</a>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
