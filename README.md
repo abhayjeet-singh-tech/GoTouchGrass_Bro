@@ -14,7 +14,7 @@
 
 ## 🚀 Overview  
 
-**GoTouchGrass Pro** is a funny yet functional app that uses **Google Gemini 2.5 Flash** to verify whether you’ve actually *touched grass* 🌿.  
+**GoTouchGrass Bro** is a funny yet functional app that uses **Google Gemini 2.5 Flash** to verify whether you’ve actually *touched grass* 🌿.  
 
 Upload a photo → Gemini analyzes it → you either get praised for going outdoors or roasted for staying inside.  
 
