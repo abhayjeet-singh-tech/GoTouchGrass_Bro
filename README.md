@@ -106,29 +106,76 @@ npm start
 # Start frontend
 cd ../frontend
 npm run dev
-Then visit 👉 http://localhost:3000
+# 🌱 GoTouchGrass Pro
 
-📸 Example Output
-✅ Verified:
+The ultimate roast-powered outdoor accountability coach. Prove you went outside, get hilarious AI roasts if you didn’t, and track your grass-touching streaks.
 
-“Yo, you actually touched grass! Nice job! Real sunlight, real vibes, no RGB needed.”
+---
 
-❌ Not Verified:
+## 🛠 Installation
 
-“This lighting screams 4K monitor, not sunshine. Go touch some actual photons.”
+### Clone the repo
+```bash
+git clone https://github.com/yourusername/go-touch-grass-pro.git
+cd go-touch-grass-pro
+```
 
-🔔 Notifications
-Local browser reminders when you’re overdue for a grass session.
+### Install dependencies
+```bash
+npm install
+```
 
-Optional email pings using SendGrid (“Subject: Still indoors? 😬”).
+### Start backend
+```bash
+cd backend
+npm start
+```
 
-Weekly summaries of your outdoor streaks.
+### Start frontend
+```bash
+cd ../frontend
+npm run dev
+```
 
-🧪 Future Additions
-🪩 Friend leaderboards
+Then visit 👉 [http://localhost:3000](http://localhost:3000)
 
-🌎 “Grass Map” of verified outdoor spots
+---
 
-🧭 Challenge mode (“Find a tree and prove it”)
+## 📸 Example Output
 
-🗣 Voice notifications: “Bro, go outside.”
+**✅ Verified:**  
+> “Yo, you actually touched grass! Nice job! Real sunlight, real vibes, no RGB needed.”
+
+**❌ Not Verified:**  
+> “This lighting screams 4K monitor, not sunshine. Go touch some actual photons.”
+
+---
+
+## 🔔 Notifications
+
+- Local browser reminders when you’re overdue for a grass session.  
+- Optional email pings using SendGrid (“Subject: Still indoors? 😬”).  
+- Weekly summaries of your outdoor streaks.
+
+---
+
+## 🧪 Future Additions
+
+- 🪩 Friend leaderboards  
+- 🌎 “Grass Map” of verified outdoor spots  
+- 🧭 Challenge mode (“Find a tree and prove it”)  
+- 🗣 Voice notifications: “Bro, go outside.”
+
+---
+
+## 📷 Screenshots
+
+![Dashboard Placeholder](./screenshots/dashboard.png)  
+*Example dashboard with streaks, verification, and roasts.*
+
+![Verification Placeholder](./screenshots/verification.png)  
+*Upload a photo to verify you actually touched grass.*
+
+![Settings Placeholder](./screenshots/settings.png)  
+*Manage your reminders, contacts, and notifications.*
+
