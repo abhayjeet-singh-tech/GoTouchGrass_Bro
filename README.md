@@ -1,4 +1,4 @@
-# 🌱 GoTouchGrass Pro  
+# 🌱 GoTouchGrass Bro  
 ### *AI-powered Roast & Outdoor Accountability System*  
 
 > “A full-stack reality check that literally makes you touch grass.”  
