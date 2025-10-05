@@ -370,3 +370,4 @@ app.listen(PORT, () => {
   console.log(`Gemini: ${process.env.GEMINI_API_KEY ? 'Connected' : 'NOT CONFIGURED'}`);
   console.log(`SendGrid: ${process.env.SENDGRID_API_KEY ? 'Connected' : 'Optional'}\n`);
 });
+
