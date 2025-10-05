@@ -61,22 +61,36 @@ It also sends **reminders, pings, and notifications** if you go too long without
 ## 🖼️ Screenshots  
 
 <p align="center">
-  <img src="docs/screenshot_home.png" width="80%" alt="Home Page Preview" />
-  <br/><em>🏡 Home screen – Upload your 'proof of grass' here.</em>
+  <img width="1399" height="320" alt="image" src="https://github.com/user-attachments/assets/ad9e5036-9db2-4057-9287-c83400fb5db0" />
+  <br/><em>🔥Dashboard</em>
 </p>
 
 <p align="center">
-  <img src="docs/screenshot_roast.png" width="80%" alt="Roast Result Example" />
+  <img width="1303" height="442" alt="image" src="https://github.com/user-attachments/assets/10f6a8dd-7e99-4e9d-b506-c54b6d27c7da" />
+  <img width="1324" height="423" alt="image" src="https://github.com/user-attachments/assets/3a3dd5a3-b3a1-40c0-b151-0bb2467d1dad" />
+  <br/><em> Switch between dynamic nature-inspired color themes.</em>
+</p>
+
+<p align="center">
+  <img width="1029" height="898" alt="image" src="https://github.com/user-attachments/assets/1cce9e67-8051-4c32-ade7-73579d4c5539" />
+  <br/><em>🔔 Manage your reminders, contacts, and notifications.</em>
+</p>
+
+<p align="center">
+  <img width="1399" height="284" alt="image" src="https://github.com/user-attachments/assets/d4524eef-b55e-4a0c-9fb8-a24c3c2e1f46" />
   <br/><em>🔥 AI roast results – brutally honest outdoor diagnostics.</em>
 </p>
 
 <p align="center">
-  <img src="docs/screenshot_theme.png" width="80%" alt="Theme Selector" />
+  <img width="526" height="110" alt="image" src="https://github.com/user-attachments/assets/19501f43-5279-4329-b3e6-037dcbbc4921" /> 
+  <img width="526" height="110" alt="image" src="https://github.com/user-attachments/assets/fbe208db-a5ae-4a27-ad70-dcc7da234d31" />
+  <img width="526" height="110" alt="image" src="https://github.com/user-attachments/assets/622e5034-be16-42e2-aa80-ce079093ffd4" />
+  <img width="526" height="110" alt="image" src="https://github.com/user-attachments/assets/74dd43ee-837a-4691-87bb-7f87fdbaccf4" />
   <br/><em>🎨 Switch between dynamic nature-inspired color themes.</em>
 </p>
 
 <p align="center">
-  <img src="docs/screenshot_notify.png" width="80%" alt="Notification System" />
+  <img width="347" height="106" alt="image" src="https://github.com/user-attachments/assets/704f239b-27b1-4411-983b-491de105667b" />
   <br/><em>🔔 Smart reminders and pings to get you moving outdoors.</em>
 </p>
 
@@ -168,14 +182,4 @@ Then visit 👉 [http://localhost:3000](http://localhost:3000)
 
 ---
 
-## 📷 Screenshots
-
-![Dashboard Placeholder](./screenshots/dashboard.png)  
-*Example dashboard with streaks, verification, and roasts.*
-
-![Verification Placeholder](./screenshots/verification.png)  
-*Upload a photo to verify you actually touched grass.*
-
-![Settings Placeholder](./screenshots/settings.png)  
-*Manage your reminders, contacts, and notifications.*
 
