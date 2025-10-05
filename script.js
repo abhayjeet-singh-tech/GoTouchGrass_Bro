@@ -1,4 +1,5 @@
-function login() {
+function login(event) {
+  event.preventDefault(); // Prevent the form from submitting and reloading the page
   const name = document.getElementById('name').value;
   if (name.trim() === '') {
     alert('Please enter your name.');
