@@ -51,7 +51,7 @@ export default function GoTouchGrassPro() {
 
   const checkBackend = async () => {
     try {
-      const response = await fetch('http://localhost:3001/api/health', { signal: AbortSignal.timeout(3000) });
+      const response = await fetch('https://go-touch-grass-bro.vercel.app/api/health', { signal: AbortSignal.timeout(3000) });
       if (response.ok) {
         setBackendStatus('connected');
         return true;
@@ -157,7 +157,7 @@ export default function GoTouchGrassPro() {
         day: 'numeric' 
       });
 
-      const response = await fetch('http://localhost:3001/api/ai/roast', {
+      const response = await fetch('https://go-touch-grass-bro.vercel.app/api/ai/roast', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
@@ -238,7 +238,7 @@ export default function GoTouchGrassPro() {
         console.log('Geocoding failed, using coordinates');
       }
 
-      const response = await fetch('http://localhost:3001/api/ai/activities', {
+      const response = await fetch('https://go-touch-grass-bro.vercel.app/api/ai/activities', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -284,7 +284,7 @@ export default function GoTouchGrassPro() {
   const fetchRoast = async (hours) => {
     setLoadingRoast(true);
     try {
-      const response = await fetch('http://localhost:3001/api/ai/roast', {
+      const response = await fetch('https://go-touch-grass-bro.vercel.app/api/ai/roast', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ 
@@ -325,7 +325,7 @@ export default function GoTouchGrassPro() {
     }
 
     try {
-      const response = await fetch('http://localhost:3001/api/email/send-shame', {
+      const response = await fetch('https://go-touch-grass-bro.vercel.app/api/email/send-shame', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
